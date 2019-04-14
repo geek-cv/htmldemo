@@ -56,27 +56,3 @@ function showtime() {
 	document.getElementById("displaytime").innerHTML = "<span>" + sTime + "</span>";
 }
 
-/* function showtime() {
-    var oDt = new Date();
-    var iTimerid;
-    var sTime = "";
-    if (oDt.getHours() < 10) {
-        sTime += "0" + oDt.getHours() + ":";
-    }
-    else {
-        sTime += oDt.getHours() + ":";
-    }
-    if (oDt.getMinutes() < 10) {
-        sTime += "0" + oDt.getMinutes() + ":";
-    }
-    else {
-        sTime += oDt.getMinutes() + ":";
-    }
-    if (oDt.getSeconds() < 10) {
-        sTime += "0" + oDt.getSeconds();
-    }
-    else {
-        sTime += oDt.getSeconds();
-    }
-    document.getElementById("displaytime").innerHTML = "<span>" + sTime + "</span>";
-} */
